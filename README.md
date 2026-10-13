@@ -41,16 +41,12 @@ Plots are in [`results/`](results/): accuracy-vs-SNR curves, confusion matrices,
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── data_utils.py        # loading, class filtering, splitting, normalization (2016.10a pickle + 2018.01A HDF5)
-├── model.py             # AMCTransformer (Iteration 1 baseline)
+├── Data_Utils.py        # loading, class filtering, splitting, normalization (2016.10a pickle + 2018.01A HDF5)
+├── Model_1.py             # AMCTransformer (Iteration 1 baseline)
 ├── model_v2.py          # AMCTransformerV2 (Iteration 2: RoPE + cross-layer fusion + attention pooling)
-├── train.py             # training loop (AdamW, warmup + cosine LR, grad clipping, best-checkpoint saving)
+├── Train_1.py             # training loop (AdamW, warmup + cosine LR, grad clipping, best-checkpoint saving)
 ├── evaluate.py          # per-SNR accuracy, confusion matrices, zero-shot evaluation
-├── notebooks/
-│   └── signal_classifier.ipynb   # Colab notebook that drives the full pipeline
-├── checkpoints/         # small trained weights (optional)
-│   ├── amc_transformer_stage1.pt
-│   └── amc_transformer_stage2.pt
+├── AMCr.ipynb   # Colab notebook that drives the full pipeline
 └── results/             # figures
 ```
 
