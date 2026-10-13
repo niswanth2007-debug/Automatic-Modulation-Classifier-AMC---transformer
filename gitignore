@@ -1,0 +1,19 @@
+# Datasets (too large for GitHub; download separately)
+*.pkl
+*.hdf5
+*.h5
+*.zip
+*.npz
+
+# Secrets
+kaggle.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Scratch / test artifacts
+smoke_test.pt
+data_utils_2.py
