@@ -208,6 +208,4 @@ Deliberately **not** included, because of implementation cost against small docu
 
 ---
 
-## Licence
 
-Add a licence of your choice (for example MIT) for the code. The datasets keep their own licences.
